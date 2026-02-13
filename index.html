@@ -39,16 +39,93 @@
 
     <!-- Hero -->
     <section class="bg-gradient-to-b from-green-50 to-white py-20 px-4">
-        <div class="max-w-7xl mx-auto text-center">
-            <h1 class="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
-                Smart Meal Planning<br>Made Simple
-            </h1>
-            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Plan your meals, manage your grocery budget, and cook smarter with Preppr. The all-in-one app for home cooks.
-            </p>
-            <a href="pricing.html" class="inline-block bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                Start Free Trial
-            </a>
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
+                        Smart Meal Planning<br>Made Simple
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Plan your meals, manage your grocery budget, and cook smarter with Preppr. The all-in-one app for home cooks.
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-4 mb-8">
+                        <div>
+                            <div class="text-3xl font-bold text-primary">50K+</div>
+                            <div class="text-sm text-gray-600">Meals Planned</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-primary">15K+</div>
+                            <div class="text-sm text-gray-600">Happy Cooks</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-primary">$800+</div>
+                            <div class="text-sm text-gray-600">Avg. Saved/Year</div>
+                        </div>
+                    </div>
+
+                    <!-- App Store Badges -->
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <a href="#" class="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                            </svg>
+                            <div class="text-left">
+                                <div class="text-xs">Download on the</div>
+                                <div class="text-lg font-semibold">App Store</div>
+                            </div>
+                        </a>
+                        <a href="#" class="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                            </svg>
+                            <div class="text-left">
+                                <div class="text-xs">GET IT ON</div>
+                                <div class="text-lg font-semibold">Google Play</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App Screenshots -->
+                <div class="relative hidden lg:block">
+                    <div class="flex gap-4 justify-center items-center">
+                        <img src="https://private-us-east-1.manuscdn.com/sessionFile/8qu8narMTMxqmBWC5pKS76/sandbox/2cgIIYvW7FmBMdyxXkKowt-img-1_1770961647000_na1fn_cHJlcHByLXNjcmVlbnNob3QtbWVhbC1wbGFu.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOHF1OG5hck1UTXhxbUJXQzVwS1M3Ni9zYW5kYm94LzJjZ0lJWXZXN0ZtQk1keXhYa0tvd3QtaW1nLTFfMTc3MDk2MTY0NzAwMF9uYTFmbl9jSEpsY0hCeUxYTmpjbVZsYm5Ob2IzUXRiV1ZoYkMxd2JHRnUucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=pQ6~~1t45QQV27ozGcOikYbmqthvdgUlrOjIF2qf~hXDopEVYw208-Cys-R-OmRVOA2nFrVM-CVx9tgzj1n21UPWggC8SDT-klhkK6A1eta6015PexImdpnrI4lDsaRkHiZOoCvs6k-Sm9446ui6KB1zSzVcyP4yUWQoPnkED~FdsPJWQ-5ivFRWJ7-H1G9FBJ2PJynHBH6XtkOD0jtqVMRCQ2wA8~y~ktnhDYfqB3cPXDescIEHxLhpQtnH5BdGP-z1KLi3TwbRJVWzxQeFvEyyaMsoRQWaKvSiZb75jXXixoE4FlaeYi9EFjsVvfsTL9Aum3fXroGEE8lMejaYdw__" alt="Meal Planning Screen" class="w-64 rounded-3xl shadow-2xl transform -rotate-6">
+                        <img src="https://private-us-east-1.manuscdn.com/sessionFile/8qu8narMTMxqmBWC5pKS76/sandbox/2cgIIYvW7FmBMdyxXkKowt-img-2_1770961638000_na1fn_cHJlcHByLXNjcmVlbnNob3QtcmVjaXBlcw.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOHF1OG5hck1UTXhxbUJXQzVwS1M3Ni9zYW5kYm94LzJjZ0lJWXZXN0ZtQk1keXhYa0tvd3QtaW1nLTJfMTc3MDk2MTYzODAwMF9uYTFmbl9jSEpsY0hCeUxYTmpjbVZsYm5Ob2IzUXRjbVZqYVhCbGN3LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Rp1~AnZqT9PrY1DPcQ1jojFUzMu1z3nxydYrVLLhMhF5weYjeYi8eeVfb5GDkodK8R-IxIgiBTk1JdLaHuymX4denIlbimzd5nFYGU6QJmDzTk4M-9P8ZbR1ywKkTcZp6njUP~RTlBUyrXhSZQnwFkkQafxKiYcAkTMy0-uIzCj3phIjObDI7btcK37Pcdu1EQ8HsvLaie-NB4k0gmYcPPmGpfc7W2V9wv7XmvvejvJChJrTwtXULUr4oihLuuyborWX2-qe1794lrZdwcMtUbs2X8LRTsv~P~emm3jXs74EPOfS6g2VoC3ey8dAUuUJ0Isd~cmoNLNNAJamJkbkOg__" alt="Recipe Browser" class="w-64 rounded-3xl shadow-2xl z-10">
+                        <img src="https://private-us-east-1.manuscdn.com/sessionFile/8qu8narMTMxqmBWC5pKS76/sandbox/2cgIIYvW7FmBMdyxXkKowt-img-3_1770961641000_na1fn_cHJlcHByLXNjcmVlbnNob3QtZ3JvY2VyeQ.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvOHF1OG5hck1UTXhxbUJXQzVwS1M3Ni9zYW5kYm94LzJjZ0lJWXZXN0ZtQk1keXhYa0tvd3QtaW1nLTNfMTc3MDk2MTY0MTAwMF9uYTFmbl9jSEpsY0hCeUxYTmpjbVZsYm5Ob2IzUXRaM0p2WTJWeWVRLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=IxW0DsHGuficN1qey9jrH9ER~BZTVSKwWIhIEYnq5n-M7paXu74TmxxgwrJSM6-rui2UIiOGpwebQvltpc4A2QeoK6RxaKdcyN9xm-fCLuE~9-oFUi6t04xFKsTiMLLMt2mKsfcxxf55dzPYp625sV2KjkOZQJcLIyW-IoxjDx-NIHiZjDlb~sEaVn6KMwlXAcpm~RwxKOlnYdkcjew5Sm-o3l5MPhATpIxa2M2B5ViUCQd4PeUXD0jXU~7T2AQNYkx0MEn5wqZZcJMlC7MA~A6Xr0sqfDlzbT8OGrgRELRXgok5Jn~j48DJFyjmDlap7wPBaM7RZ8QbKS3LnTKAYg__" alt="Grocery List" class="w-64 rounded-3xl shadow-2xl transform rotate-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Plan Your Week</h3>
+                    <p class="text-gray-600">Browse recipes and add meals to your weekly calendar</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Generate List</h3>
+                    <p class="text-gray-600">Automatically create a smart grocery list from your meals</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Shop & Save</h3>
+                    <p class="text-gray-600">Use your organized list to shop efficiently and stay on budget</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                    <h3 class="text-xl font-semibold mb-2">Cook with Ease</h3>
+                    <p class="text-gray-600">Follow step-by-step instructions in Cook Mode</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -90,15 +167,157 @@
             </div>
         </div>
     </section>
+    <!-- Comparison Table -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Preppr vs. Traditional Meal Planning</h2>
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                <table class="w-full">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-6 py-4 text-left font-semibold">Feature</th>
+                            <th class="px-6 py-4 text-center font-semibold text-primary">Preppr</th>
+                            <th class="px-6 py-4 text-center font-semibold text-gray-600">Traditional</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-6 py-4">Weekly meal planning</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">📝</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Auto-generated grocery lists</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">❌</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Budget tracking</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">❌</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Recipe suggestions</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">❌</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Pantry management</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">❌</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Cook mode with timers</td>
+                            <td class="px-6 py-4 text-center text-2xl">✅</td>
+                            <td class="px-6 py-4 text-center text-2xl">❌</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4">Time spent planning</td>
+                            <td class="px-6 py-4 text-center font-semibold text-primary">15 min</td>
+                            <td class="px-6 py-4 text-center font-semibold text-gray-600">2+ hours</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Users Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Preppr has completely transformed how I plan meals. I'm saving $150+ per month on groceries and wasting way less food!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-gradient-to-br from-primary to-green-400 rounded-full"></div>
+                        <div>
+                            <div class="font-semibold">Sarah Johnson</div>
+                            <div class="text-sm text-gray-600">Busy Mom of 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"As someone who hates meal planning, this app is a lifesaver. The grocery list feature alone is worth it!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-400 rounded-full"></div>
+                        <div>
+                            <div class="font-semibold">Mike Chen</div>
+                            <div class="text-sm text-gray-600">Software Engineer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="text-yellow-400">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="text-gray-700 mb-4">"I love how it tracks my budget and shows me where I'm spending. Finally staying within my grocery budget!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-400 rounded-full"></div>
+                        <div>
+                            <div class="font-semibold">Emily Rodriguez</div>
+                            <div class="text-sm text-gray-600">College Student</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 px-4 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Is Preppr free to use?</h3>
+                    <p class="text-gray-600">Yes! Preppr offers a free plan with basic features. Upgrade to Pro for unlimited meal planning, advanced features, and more recipes.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Can I add my own recipes?</h3>
+                    <p class="text-gray-600">Absolutely! You can add unlimited custom recipes with photos, ingredients, instructions, and nutrition info.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Does it work offline?</h3>
+                    <p class="text-gray-600">Yes! Once you've downloaded your meal plan and recipes, you can access them offline while shopping or cooking.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Can I share meal plans with family?</h3>
+                    <p class="text-gray-600">Yes! Pro users can share meal plans and grocery lists with family members for collaborative planning.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">What platforms does Preppr support?</h3>
+                    <p class="text-gray-600">Preppr is available on iOS, Android, and web. Your data syncs seamlessly across all devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- CTA -->
     <section class="bg-primary text-white py-20 px-4">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Meal Planning?</h2>
             <p class="text-xl mb-8 opacity-90">Join thousands of home cooks saving time and money with Preppr.</p>
-            <a href="pricing.html" class="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
-                Get Started Free
-            </a>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    Download on App Store
+                </a>
+                <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                    </svg>
+                    Get it on Google Play
+                </a>
+            </div>
         </div>
     </section>
 
