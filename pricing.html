@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Preppr</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2D5F3F',
+                        secondary: '#FF6B35',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="flex items-center gap-2">
+                    <span class="text-2xl">👨‍🍳</span>
+                    <span class="text-xl font-bold text-gray-900">Preppr</span>
+                </a>
+                <div class="flex items-center gap-4 sm:gap-8">
+                    <a href="/#features" class="hidden sm:block text-gray-700 hover:text-primary transition-colors">Features</a>
+                    <a href="pricing.html" class="text-gray-700 hover:text-primary transition-colors">Pricing</a>
+                    <a href="pricing.html" class="bg-primary hover:bg-primary/90 text-white px-4 sm:px-6 py-2 rounded-lg transition-colors">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pricing Hero -->
+    <section class="bg-gradient-to-b from-green-50 to-white py-16 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Simple, Transparent Pricing</h1>
+            <p class="text-xl text-gray-600">Choose the plan that works best for you</p>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="py-16 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <!-- Free Plan -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-2 border-gray-200">
+                <h3 class="text-2xl font-bold mb-2">Free</h3>
+                <div class="mb-6">
+                    <span class="text-4xl font-bold">$0</span>
+                    <span class="text-gray-600">/month</span>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Plan up to 7 meals per week</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Basic grocery list</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Access to 100+ recipes</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Budget tracking</span>
+                    </li>
+                </ul>
+                <a href="#" class="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors">
+                    Get Started
+                </a>
+            </div>
+
+            <!-- Pro Monthly -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-2 border-primary relative">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-secondary text-white px-4 py-1 rounded-full text-sm font-semibold">
+                    Most Popular
+                </div>
+                <h3 class="text-2xl font-bold mb-2">Pro Monthly</h3>
+                <div class="mb-6">
+                    <span class="text-4xl font-bold">$9.99</span>
+                    <span class="text-gray-600">/month</span>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Unlimited meal planning</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Smart grocery lists with pantry</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Access to 1000+ recipes</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Advanced budget analytics</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Cook mode with timers</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Save unlimited meal plans</span>
+                    </li>
+                </ul>
+                <a href="#" class="block w-full text-center bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                    Start Free Trial
+                </a>
+            </div>
+
+            <!-- Pro Yearly -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border-2 border-gray-200">
+                <h3 class="text-2xl font-bold mb-2">Pro Yearly</h3>
+                <div class="mb-6">
+                    <span class="text-4xl font-bold">$99.99</span>
+                    <span class="text-gray-600">/year</span>
+                    <div class="text-sm text-green-600 font-semibold">Save 17%</div>
+                </div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Everything in Pro Monthly</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Priority support</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Early access to new features</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-green-600">✓</span>
+                        <span>Best value - 2 months free</span>
+                    </li>
+                </ul>
+                <a href="#" class="block w-full text-center bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                    Start Free Trial
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Can I try Pro for free?</h3>
+                    <p class="text-gray-600">Yes! All Pro plans come with a 7-day free trial. No credit card required.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">Can I cancel anytime?</h3>
+                    <p class="text-gray-600">Absolutely. Cancel your subscription anytime from your account settings.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <h3 class="font-semibold mb-2">What payment methods do you accept?</h3>
+                    <p class="text-gray-600">We accept all major credit cards, debit cards, and PayPal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl">👨‍🍳</span>
+                        <span class="text-xl font-bold">Preppr</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Smart meal planning for home cooks.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/#features" class="text-gray-400 hover:text-white transition-colors">Features</a></li>
+                        <li><a href="pricing.html" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Connect</h3>
+                    <p class="text-gray-400 text-sm">support@preppr.app</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2026 Preppr. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

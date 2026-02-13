@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preppr - Smart Meal Planning & Grocery Budgeting</title>
+    <meta name="description" content="Plan your meals, manage your grocery budget, and cook smarter with Preppr. The all-in-one app for home cooks.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2D5F3F',
+                        secondary: '#FF6B35',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="flex items-center gap-2">
+                    <span class="text-2xl">👨‍🍳</span>
+                    <span class="text-xl font-bold text-gray-900">Preppr</span>
+                </a>
+                <div class="flex items-center gap-4 sm:gap-8">
+                    <a href="#features" class="hidden sm:block text-gray-700 hover:text-primary transition-colors">Features</a>
+                    <a href="pricing.html" class="text-gray-700 hover:text-primary transition-colors">Pricing</a>
+                    <a href="pricing.html" class="bg-primary hover:bg-primary/90 text-white px-4 sm:px-6 py-2 rounded-lg transition-colors">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-gradient-to-b from-green-50 to-white py-20 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
+                Smart Meal Planning<br>Made Simple
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Plan your meals, manage your grocery budget, and cook smarter with Preppr. The all-in-one app for home cooks.
+            </p>
+            <a href="pricing.html" class="inline-block bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                Start Free Trial
+            </a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Everything You Need</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">📅</div>
+                    <h3 class="text-xl font-semibold mb-2">Weekly Meal Planning</h3>
+                    <p class="text-gray-600">Plan your meals for the week and never wonder "what's for dinner?" again.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">🛒</div>
+                    <h3 class="text-xl font-semibold mb-2">Smart Grocery Lists</h3>
+                    <p class="text-gray-600">Auto-generate grocery lists from your meal plan with intelligent categorization.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">💰</div>
+                    <h3 class="text-xl font-semibold mb-2">Budget Tracking</h3>
+                    <p class="text-gray-600">Set and track your weekly grocery budget to save money and reduce waste.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">📖</div>
+                    <h3 class="text-xl font-semibold mb-2">Recipe Library</h3>
+                    <p class="text-gray-600">Access 1000+ recipes or add your own favorites with nutrition info.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">🍳</div>
+                    <h3 class="text-xl font-semibold mb-2">Cook Mode</h3>
+                    <p class="text-gray-600">Step-by-step cooking instructions with timers and hands-free voice control.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="text-xl font-semibold mb-2">Insights & Stats</h3>
+                    <p class="text-gray-600">Track your cooking habits, favorite meals, and budget trends over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-primary text-white py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Meal Planning?</h2>
+            <p class="text-xl mb-8 opacity-90">Join thousands of home cooks saving time and money with Preppr.</p>
+            <a href="pricing.html" class="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                Get Started Free
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-2xl">👨‍🍳</span>
+                        <span class="text-xl font-bold">Preppr</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">Smart meal planning for home cooks.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Product</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors">Features</a></li>
+                        <li><a href="pricing.html" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors">Privacy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Connect</h3>
+                    <p class="text-gray-400 text-sm">support@preppr.app</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; 2026 Preppr. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
